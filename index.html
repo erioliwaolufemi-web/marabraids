@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mara Braids Collection | Premium Hair Artistry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MARA BRAIDS</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#order">Place Order</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Mara Braids <span class="gold-text">Collection</span></h1>
+            <p>LET'S GIVE YOU THAT LOOK YOU'VE ALWAYS WANTED</p>
+            <a href="#order" class="btn">Book Appointment</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>Our Heritage</h2>
+        <p>Premium hair artistry located at No. 8 Dr. Anene Ozoekwe, Amikwo Udoka Housing Estate, Awka. We bring elegance and confidence to every client.</p>
+    </section>
+
+    <section id="services" class="section bg-dark">
+        <h2 class="gold-text">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card"><h3>Braiding</h3></div>
+            <div class="service-card"><h3>Fixing of Wigs</h3></div>
+            <div class="service-card"><h3>Revamping of Hairs</h3></div>
+            <div class="service-card"><h3>Hair Sales & Treatment</h3></div>
+        </div>
+        <div class="home-service-banner">
+            <h3>🏠 HOME SERVICE AVAILABLE</h3>
+        </div>
+    </section>
+
+    <section id="order" class="section">
+        <h2>Place Your Order</h2>
+        <p>Your request will be sent to our email and open a WhatsApp chat.</p>
+        
+        <form id="orderForm" action="https://formspree.io/f/xeelzlko" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <select name="service" required>
+                <option value="">Choose a Service</option>
+                <option value="Braiding">Braiding</option>
+                <option value="Wig Fixing">Wig Fixing</option>
+                <option value="Revamping">Revamping</option>
+                <option value="Hair Treatment">Hair Treatment</option>
+            </select>
+            <textarea name="message" rows="4" placeholder="Tell us about your hair needs..."></textarea>
+            <button type="submit" id="submitBtn" class="btn">Submit & Chat on WhatsApp</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-info">
+            <p>📍 No. 8 Dr. Anene Ozoekwe, Amikwo Udoka Housing Estate, Opposite De Viva Hotel Awka, Anambra State.</p>
+            <p>📞 08164120347 | 09130570858</p>
+            <p>📧 orjia1993@gmail.com</p>
+        </div>
+        <div class="copyright">&copy; 2026 Mara Braids Collection.</div>
+    </footer>
+
+    <a href="tel:08164120347" class="mobile-call-btn">📞 Call Now</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
